@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Gear Pen</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+    <img src="images/logo.png" alt="Gear Pen Logo">
+    <span>Gear Pen</span>
+</div>
+
+    <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="customize.html">Customize</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+</header>
+
+<section class="cart-page">
+
+    <div class="cart-header">
+        <h1>Your Cart</h1>
+        <p>Review your products before checkout.</p>
+    </div>
+
+    <div class="cart-layout">
+
+        <!-- LEFT SIDE -->
+
+        <div class="cart-items" id="cart-items">
+
+</div>
+        <!-- RIGHT SIDE -->
+
+        <div class="summary-card">
+
+            <h2>Order Summary</h2>
+
+            <div class="summary-row">
+    <span>Subtotal</span>
+    <span id="cart-subtotal">$0.00</span>
+</div>
+
+<div class="summary-row">
+    <span>Shipping Charge</span>
+    <span id="cart-shipping">$5.00</span>
+</div>
+
+<div class="summary-row total-row">
+    <span>Total</span>
+    <span id="cart-total">$0.00</span>
+</div>
+            <button class="checkout-btn" onclick="window.location.href='checkout.html'">
+    Proceed to Checkout
+</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

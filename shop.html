@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shop - Gear Pen</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <img src="images/logo.png" alt="Gear Pen Logo">
+
+        <span>Gear Pen</span>
+
+    </div>
+
+
+    <nav class="links">
+
+        <a href="index.html">Home</a>
+
+        <a href="shop.html">Shop</a>
+
+        <a href="customize.html">Customize</a>
+
+        <a href="cart.html">Cart</a>
+
+        <a href="login.html" class="login-btn">Login</a>
+
+    </nav>
+
+
+</header>
+
+
+
+<section class="section">
+
+    <h1>Shop CNC Products</h1>
+
+    <p style="color:#aaa;">
+        Choose from our precision engraved products or customize your own.
+    </p>
+
+</section>
+
+
+
+<section class="section">
+
+
+<div class="product-grid">
+
+
+
+<!-- WOOD -->
+
+<div class="card">
+
+
+<img src="images/ww.png"
+class="product-image"
+alt="Wooden Frame">
+
+
+<h3>Wooden Frame</h3>
+
+
+<p class="price">$25</p>
+
+
+<div id="wood-controls">
+
+<button class="cart-btn"
+onclick="addToCart('Wooden Frame',25)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- METAL -->
+
+<div class="card">
+
+
+<img src="images/w2.png"
+class="product-image"
+alt="Metalic Frame">
+
+
+<h3>Metalic Frame</h3>
+
+
+<p class="price">$40</p>
+
+
+<div id="metal-controls">
+
+
+<button class="cart-btn"
+onclick="addToCart('Metalic Frame',40)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- CUSTOM -->
+
+<div class="card">
+
+
+<img src="images/w3.png"
+class="product-image"
+alt="Custom CNC Art">
+
+
+<h3>Custom CNC Art</h3>
+
+
+<p class="price">$60</p>
+
+
+<div id="custom-controls">
+
+
+<button class="cart-btn"
+onclick="addToCart('Custom CNC Art',60)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- NAME TAG -->
+
+<div class="card">
+
+
+<img src="images/w4.jpeg"
+class="product-image"
+alt="Mini Name Tag">
+
+
+<h3>Mini Name Tag</h3>
+
+
+<p class="price">$15</p>
+
+
+<div id="tag-controls">
+
+
+<button class="cart-btn"
+onclick="addToCart('Mini Name Tag',15)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<footer class="footer">
+
+<p>
+© 2026 Gear Pen CNC. All rights reserved.
+</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+<a href="cart.html"
+   id="go-to-cart-btn"
+   class="go-to-cart-btn">
+
+   🛒 Go To Cart
+
+</a>
+
+</body>
+
+</html>
